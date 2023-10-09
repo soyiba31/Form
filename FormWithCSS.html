@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        h1
+        {
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-shadow: 2px 2px 10px crimson;
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-image: url("");
+        }
+        form fieldset
+        {
+            width: 90%;
+            margin: auto;
+            background-color: palevioletred;
+            border-radius: 0 20px 0 20px;
+            margin-bottom: 20px;
+        }
+        form label
+        {
+            color: aqua;
+        }
+        form input:hover
+        {
+            background-color: blueviolet;
+            color: white;
+            font: bold;
+        }
+        form legend
+        {
+            border: 2px solid brown;
+            padding: 9px;
+            border-radius: 10px 0 10px 0;
+            background-color: cadetblue;
+            color:darkblue;
+        }
+        form label{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Job Application</h1>
+    <form action="">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <table>
+                <tr>
+                    <td><label>FirstName</label></td>
+                    <td><input type="text" placeholder="Enter your name"> </td>
+                    <td><label>MiddleName</label></td>
+                    <td><input type="text" placeholder="Enter your name"> </td>
+                    <td><label>LastName</label></td>
+                    <td><input type="text" placeholder="Enter your name"> </td>
+                </tr>
+                <tr>
+                    <td><label>FatherName</label></td>
+                    <td><input type="text" placeholder="Enter your fathername"> </td>
+                    <td><label>MotherName</label></td>
+                    <td><input type="text" placeholder="Enter your Mothername"> </td>
+               </tr>
+               <tr>
+                <td><label>DateOfBirth</label></td>
+                <td><input type="date"></td>
+               </tr>
+               <tr>
+                <td><label>Contact number</label></td>
+                <td><input type="tel" placeholder="Enter your number"></td>
+               </tr>
+               <tr>
+                <td><label>Email</label></td>
+                <td><input type="email" placeholder="Enter your email "></td>
+               </tr>
+               <tr>
+                <td><label>Address</label></td>
+                <td><textarea  cols="30" rows="5"></textarea></td>
+               </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Education Details</legend>
+            <table>
+                <tr><td><label>Graduation</label></td></tr>
+              <tr>
+                <td><select>
+                    <option>BTECH</option>
+                    <option>BSC</option>
+                    <option>BCOM</option>
+                    <option>MTECH</option>
+                    <option>PHD</option>
+                </select></td>
+                <td><label>Percentage</label></td>
+                <td><input type="number">%</td>
+              </tr>
+                <tr><td><label>Intermediate Details</label></td></tr>
+              <tr>
+                <td><select>
+                    <option>MPC</option>
+                    <option>BPC</option>
+                    <option>CSE</option>
+                    <option>Arts</option>
+                    <option>Agriculture</option>
+                </select></td>
+                <td><label>Percentage</label></td>
+                <td><input type="number">%</td>
+              </tr>
+              <tr>
+               <td> <label>SSC</label></td>
+               <input type="text" placeholder="Enter your board">
+               <td><label>Percentage</label></td>
+                <td><input type="number">%</td>
+              </tr>
+
+            </table>
+        </fieldset>
+        
+    </form>
+    
+</body>
+</html>
